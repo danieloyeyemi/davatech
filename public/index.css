@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'poppins';
+    animation: bg 20s linear infinite;
+}
+
+#amet{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar-brand{
+    font: 3em 'poppins';
+    color: #fff !important;
+}
+body{
+     padding: 0;
+     margin: 0;
+    background-image: url(/assets/BG.jpg); 
+    background-size: cover;
+   
+ }
+ @keyframes bg {
+    0%   { filter: hue-rotate(0deg);}
+    100% { filter: hue-rotate(360deg);}
+}
+#jump{
+    margin-top: 20px;
+    height:240px;
+    width:240px;
+    animation: example 5s linear infinite alternate;
+}
+li:hover{
+    background: #f2f3 !important;
+}
+.container{
+    top: 30px;
+    position: relative;
+    width:100% ;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow:0 25px 45px rgba(0, 0, 0, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-right:1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+#contain{
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 50%;
+    position: relative;
+    width:280px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0,0,0, 0.1);
+}
+@keyframes example {
+    0%   { transform: scaleX(0);}
+    25%  { transform: scaleX(0.4);}
+    50%  { transform: scaleX(0.8); }
+    100% { transform: scaleX(1.0);}
+}
+#words{
+    margin-top: 100px;
+    font-size: 25px;
+}
+#btn{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#music{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+}
