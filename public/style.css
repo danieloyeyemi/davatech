@@ -10,7 +10,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom,#f1f4f9,#dff1ff);
+    background: linear-gradient(to bottom,#6d925544,#295374a9);
 }
 section .color{
     position: absolute;
@@ -96,7 +96,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f9f9f9;
+    background: #f9f9f952;
     overflow: hidden;
 }
 .center{
